@@ -5,6 +5,7 @@ html{
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     transition: all 0.01ms;
+    /* background-image: url(./assets/images/wall.png); */
 }
 
 a{
@@ -28,6 +29,7 @@ a:hover{
 
 .container{
     display: flex;
+    /* background-color: yellow; */
 }
 
 .btt2{
@@ -203,4 +205,50 @@ div#aboutmeimg > img{
     height: 100%;
     border-radius: 25px;
     filter: inherit;
+}
+
+
+/* --------------------------------------------------------- education info */
+
+#education{
+    /* background-color: rgb(78, 194, 157); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edcards{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;
+    width: 100vw !important; */
+    margin: 0 auto;
+}
+
+.edheading{
+    color: white;
+    font-size: 40px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.404); */
+    background: inherit;
+    backdrop-filter: blur(10px);
+    object-fit:scale-down;
+    border-radius: 10px;
+    height: 50vh;
+    text-align: center;
+}
+
+.card p{
+    color: white;
+}
+
+.card-img-top{
+    margin-top: 40px;
+    border-radius: 10px;
 }
