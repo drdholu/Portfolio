@@ -1,0 +1,340 @@
+@media (max-width:1072px) {
+    /* --------------------------------------------------------------about me */
+    #aboutme{
+        /* background-color: rgb(78, 194, 157); */
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw !important;
+        margin: 0 auto;
+    }
+    
+    div#aminfo{
+        width: 80%;
+    }
+
+    .amheading{
+        font-size: 40px;
+    }
+    
+    #aboutme .hi{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #aboutme .hi .description{
+        font-size: large;
+    }
+    
+    div#aboutmeimg > img{
+        height: 280px;
+        width: 280px;
+        border-radius: 25px;
+        filter: inherit;
+    }
+
+    /*---------- --------------------------------experience */
+
+    #experience .card-box .card{
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        align-items: center;
+        gap: 10px;
+        height: 10%;
+        width: 40vh;
+        margin: 10px;
+    }
+
+    #experience > .card-box{
+        margin-top: 15px;
+        display: block;
+    }
+
+    .card p{
+        color: white;
+    }
+
+    #experience > .card-box > div > .card > .card-img-top{
+        margin-top: 0;
+        border-radius: 10px;
+        height: 160px;
+    }
+}
+
+@media (max-width:960px) {
+
+    .vl{
+        border: 1px solid white;
+        height: 45vh;
+        margin-top: 205px;
+    }
+
+    /* ----------------------------------------------- sidebar */
+
+.sidebar{
+    color:aquamarine;
+    width: 175px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+    --_gap: 5rem;
+}
+
+.sidebar nav ul li{
+    position: relative;
+    padding-block: calc(var(--_gap) / 2);
+    padding-bottom:5px;
+    font-size: 18px;
+}
+
+.sidebar nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: white;
+    scale: 0 1;
+    transition: scale 250ms;
+}
+
+.sidebar nav ul li a:hover:after{
+    scale: 0.5 1;
+}
+
+/*--------------------------------------------- main page */
+
+    .mainpage{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* background-color: red; */
+        width: 90vw;
+        /* padding-left: 137px; */
+    }
+
+    .mpaboutme{
+        color: aquamarine;
+        /* background-color: red; */
+        /* background-color: rgb(0, 0, 0); */
+        height: 80vh;
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mpimg img{
+        width: 40vh;
+        height: 40vh;
+        filter: invert(100%);
+        /* margin: 0; */
+    }
+
+    .buttons{
+        padding-top: 20px;
+    }
+
+    .buttons button {
+        padding: 9px;
+        width: 35px;
+        border-radius: 50%;
+        height: 35px;
+        margin: 0px 3px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        transition: all 0.3s ease 0s;
+    }
+
+    /* .buttons button .fa{
+    
+    } */
+
+    .buttons button:hover{
+        filter: invert(100%);
+        color: #80002b;
+    }
+
+    .mpinfo .hi{
+        color: white;
+        font-size: 30px;
+    }
+
+    .sn{
+        color: white;
+    }
+
+    .mpinfo .name{
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .mpinfo .smallinfo{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:800px) {
+
+/*--------------------------------------------- main page */
+
+    .mpimg img{
+        width: 40vh;
+        height: 40vh;
+        filter: invert(100%);
+    }
+}
+
+@media (max-width:720px) {
+    .vl{
+        display: none;
+    }
+
+    .sidebar{
+        position: fixed;
+        background: rgb(0,0,0);
+        background: linear-gradient(36deg, rgba(0,0,0,1) 16%, rgba(49,87,93,1) 80%);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.33);
+        background: inherit;
+        backdrop-filter: blur(13px);
+    }
+
+    .sidebarGo{
+        transform: translate(-177px, 0px);
+        /* background-color: red; */
+        position: absolute;
+        
+    }
+
+    .nav-icons svg{
+        display: inline;
+        position: fixed;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
+        filter: invert(100%);
+    }
+
+    svg.cross{
+        margin-left: 143px;
+    }
+
+    /* mainpage */
+
+    .mpimg img{
+        width: 30vh;
+        height: 30vh;
+    }
+
+    /* --------------------------------------------------------------about me */
+#aboutme{
+    /* background-color: rgb(78, 194, 157); */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw !important;
+    margin: 0 auto;
+    /* margin-top: 140px; */
+}
+
+div#aminfo{
+    width: 80%;
+}
+
+.amheading{
+    font-size: 30px;
+}
+
+#aboutme .hi{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#aboutme .hi .description{
+    font-size: medium;
+}
+
+div#aboutmeimg > img{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    filter: inherit;
+}
+
+
+
+
+    
+/* ---------------------------------- education and experience cards   */
+    .card{
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        align-items: center;
+        gap: 10px;
+        height: 10%;
+        width: 50vh;
+        margin: 10px;
+    }
+
+    .card-box{
+        display: block;
+    }
+    
+    .card p{
+        color: white;
+    }
+
+    .card img{
+        height: 160px;
+    }
+    
+    .card-img-top{
+        margin-top: 0;
+        border-radius: 10px;
+    }
+
+    /* #experience > .card-box > div > .card > .card-img-top{
+        height: 160px;
+    } */
+
+    #experience > .card-box{
+        margin-top: 15px;
+    }
+
+    #experience{
+        /* margin-top: 140px; */
+        height: 100vh;
+    }
+
+    #experience > .card-box > div > .card > .card-img-top{
+        height: 160px;
+    }
+
+    /* ------------------------------contact */
+
+    #contact{
+        height: 100vh;
+        /* margin-top: 140px; */
+    }
+}

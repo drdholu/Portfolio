@@ -5,25 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./media.css">
     <title>Paras' Portfolio</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="header">
         <!-- --------------------------------------navbar -->
-        <div class="sidebar">
+        <div class="sidebar sidebarGo">
             <nav>
                 <ul>
-                    <!-- <li><a href="#">Home</a></li> -->
-                    <li><a href="#naboutme">About Me</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#naboutme">Info</a></li>
                     <li><a href="#neducation">Education</a></li>
                     <li><a href="#nexperience">Experience</a></li>
-                    <li><a href="#ncontact">Contact Me</a></li>
+                    <li><a href="#ncontact">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="vl"></div>
         <!-- ----------------------------------------general info -->
         <div class="mainpage">
+            <div class="nav-icons">
+                <svg class="ham" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+                <svg class="cross" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg> 
+            </div>
             <div class="mpaboutme">
                 <div class="mpinfo">
                     <div class="hi">Hi, I'm</div>
@@ -70,21 +79,22 @@
                 <div class="edheading">Education</div>
                 <div class="card-box">
                     <div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/icon3.jpg" class="card-img-top" alt="..." height="200">
+                        <div class="card">
+                            <img src="./assets/images/icon3.jpg" class="card-img-top" alt="..." >
                             <div class="card-body">
                                 <h3 class="card-title">DPS Sharjah</h3>
                                 <p class="card-text">2007-2022</p>
+                                <p>School</p>
                             </div>
-                            
                         </div>
                     </div>
                     <div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/icon4.jpg" class="card-img-top" alt="..." height="200">
+                        <div class="card">
+                            <img src="./assets/images/icon4.jpg" class="card-img-top" alt="..." >
                             <div class="card-body">
-                            <h3 class="card-title">COEP Tech. University</h3>
+                            <h3 class="card-title">COEP</h3>
                             <p class="card-text">2022-2026</p>
+                            <p>Btech in CS</p>
                             </div>
                         </div>
                     </div>
@@ -100,8 +110,8 @@
                 <div class="edheading">Experience</div>
                 <div class="card-box">
                     <div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/exp1.jpg" class="card-img-top" alt="..." height="200">
+                        <div class="card">
+                            <img src="./assets/images/exp1.jpg" class="card-img-top" alt="..." >
                             <div class="card-body">
                                 <h3 class="card-title">Mindspark</h3>
                                 <p class="card-text" style="font-size: large;">PRO Volunteer</p>
@@ -111,8 +121,8 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/exp2.jpeg" class="card-img-top" alt="..." height="200">
+                        <div class="card">
+                            <img src="./assets/images/exp2.jpeg" class="card-img-top" alt="..." >
                             <div class="card-body">
                             <h3 class="card-title">TedX COEP</h3>
                             <p class="card-text" style="font-size: large;">EEM Volunteer</p>
@@ -121,10 +131,10 @@
                         </div>
                     </div>
                     <div>
-                        <div class="card" style="width: 18rem;">
-                            <img src="./assets/images/exp3.jpg" class="card-img-top" alt="..." height="200">
+                        <div class="card">
+                            <img src="./assets/images/exp3.jpg" class="card-img-top" alt="..." >
                             <div class="card-body">
-                            <h3 class="card-title">National Service Scheme</h3>
+                            <h3 class="card-title">NSS COEP</h3>
                             <p class="card-text" style="font-size: large;">Volunteer</p>
                             <p class="card-text">Jan 2023- Present</p>
                             </div>
@@ -158,7 +168,7 @@
                               </svg>
                           <p>Address</p>
                         </div>
-                          <p>COEP Hostel</p>
+                          <p>COEP Hostel, Shivajinagar, Pune</p>
                     </div>
                     <div class="email">
                         <div class="contact-icon">
@@ -167,7 +177,7 @@
                               </svg>
                           <p>Email</p>
                         </div>
-                          <p><a href="mailto:parasdhole23@gmail.com">Click Here</a></p>
+                          <p><a href="mailto:parasdhole23@gmail.com">parasdhole23@gmail.com</a></p>
                     </div>
                 </div>
                 <!-- <form>
@@ -193,5 +203,6 @@
     <div class="btt">
         <a href="#" class="btt2"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
     </div>
+<script src="script.js"></script>
 </body>
 </html>

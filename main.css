@@ -5,8 +5,8 @@ html{
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     transition: all 0.01ms;
-    background: rgb(14,10,15);
-    background: linear-gradient(9deg, rgba(14,10,15,1) 0%, rgba(50,78,98,1) 100%);
+    background: rgb(0,0,0);
+    background: linear-gradient(36deg, rgba(0,0,0,1) 16%, rgba(49,87,93,1) 80%);
     /* background-image: url(./assets/images/wall.png); */
 }
 
@@ -35,7 +35,7 @@ a:hover{
 }
 
 .btt2{
-    /* display: inline; */
+    /* display: none; */
     position: fixed;
     bottom: 35px;
     right: 35px;
@@ -49,6 +49,11 @@ a:hover{
     /* box-shadow: 3px 3px 4px; */
 }
 
+.btt2:hover{
+    filter: invert(100%);
+    filter: grayscale(100%);
+}
+
 i.fa.fa-angle-up{
     padding-left: 8px;
     font-size: 36px;
@@ -57,8 +62,13 @@ i.fa.fa-angle-up{
 .vl{
     border: 1px solid white;
     height: 60vh;
-
     margin-top: 150px;
+    transition: all 0.3s ease-out;
+}
+
+.nav-icons svg{
+    display: none;
+    transform: scale(1.5);
 }
 
 /* ----------------------------------------------- sidebar */
@@ -74,6 +84,7 @@ i.fa.fa-angle-up{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease-in;
 }
 
 /* .sidebar nav{
@@ -228,7 +239,7 @@ div#aboutmeimg > img{
 
 .card-box{
     display: flex;
-    gap: 100px;
+    /* gap: 100px; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -254,14 +265,18 @@ div#aboutmeimg > img{
 /* ------------------------------------------------------- cards */
 
 .card{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.404);
-    background: inherit;
-    backdrop-filter: blur(10px);
-    object-fit:scale-down;
+    /* background-color: rgb(255, 255, 255); */
+    /* box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.404); */
+    /* background: inherit;
+    backdrop-filter: blur(10px); */
     border-radius: 10px;
     height: 50vh;
     text-align: center;
+    width: 18rem;
+}
+
+.card img{
+    height: 200px;
 }
 
 .card p{
@@ -299,7 +314,7 @@ div#aboutmeimg > img{
 }
 
 .contactinfo{
-    height: 100%;
+    height: 65%;
     width: 100%;
     /* background-color: red; */
 }
@@ -309,30 +324,31 @@ div#aboutmeimg > img{
     flex-direction: column;
     gap: 100px;
     justify-content: center;
+    align-items: center;
 }
 
 .contactinfo > .num {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contactinfo > .location {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contactinfo > .email {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-icon{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .contactinfo p{
