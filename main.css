@@ -87,6 +87,10 @@ i.fa.fa-angle-up{
     transition: transform 0.3s ease-in;
 }
 
+/* .home-nav{
+    display: none;
+} */
+
 /* .sidebar nav{
     padding: 17px;
 } */
@@ -149,8 +153,8 @@ i.fa.fa-angle-up{
     align-items: center;
 }
 .mpimg img{
-    width: 55vh;
-    height: 55vh;
+    width: 20rem;
+    height: 20rem;
     filter: invert(100%);
     /* margin: 0; */
 }
@@ -235,6 +239,7 @@ div#aboutmeimg > img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .card-box{
@@ -260,6 +265,7 @@ div#aboutmeimg > img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 /* ------------------------------------------------------- cards */
@@ -295,6 +301,7 @@ div#aboutmeimg > img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .cheading{

@@ -67,11 +67,11 @@
 
 @media (max-width:960px) {
 
-    .vl{
+    /* .vl{
         border: 1px solid white;
         height: 45vh;
         margin-top: 205px;
-    }
+    } */
 
     /* ----------------------------------------------- sidebar */
 
@@ -141,8 +141,8 @@
         align-items: center;
     }
     .mpimg img{
-        width: 40vh;
-        height: 40vh;
+        width: 19rem;
+        height: 19rem;
         filter: invert(100%);
         /* margin: 0; */
     }
@@ -192,17 +192,10 @@
 }
 
 @media (max-width:800px) {
-
-/*--------------------------------------------- main page */
-
-    .mpimg img{
-        width: 40vh;
-        height: 40vh;
-        filter: invert(100%);
+    .nav-icons svg{
+        display:block;
     }
-}
 
-@media (max-width:720px) {
     .vl{
         display: none;
     }
@@ -211,15 +204,17 @@
         position: fixed;
         background: rgb(0,0,0);
         background: linear-gradient(36deg, rgba(0,0,0,1) 16%, rgba(49,87,93,1) 80%);
-        box-shadow: 0 0 4px rgba(0, 0, 0, 0.33);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.653);
         background: inherit;
-        backdrop-filter: blur(13px);
+        backdrop-filter: blur(15px);
+        height: 100%;
     }
 
     .sidebarGo{
         transform: translate(-177px, 0px);
         /* background-color: red; */
         position: absolute;
+        height: 100%;
         
     }
 
@@ -236,12 +231,16 @@
         margin-left: 143px;
     }
 
-    /* mainpage */
+/*--------------------------------------------- main page */
 
     .mpimg img{
-        width: 30vh;
-        height: 30vh;
+        width: 17rem;
+        height: 17rem;
+        filter: invert(100%);
     }
+}
+
+@media (max-width:720px) {
 
     /* --------------------------------------------------------------about me */
 #aboutme{
@@ -337,4 +336,31 @@ div#aboutmeimg > img{
         height: 100vh;
         /* margin-top: 140px; */
     }
+}
+
+@media (max-width:480px) {
+
+    /* mainpage */
+    .mpimg img{
+        width: 20vh;
+        height: 20vh;
+    }
+
+
+    .card{
+        width: 30vh;
+    }
+    .card img{
+        height: 8rem;
+    }
+
+    #experience > .card-box > div > .card{
+        width: 17rem;
+    }
+
+    #experience > .card-box > div > .card > .card-img-top{
+        height: 8rem;
+    }
+
+
 }
