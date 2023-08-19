@@ -385,5 +385,26 @@ div.progress-heading{
         height: 8rem;
     }
 
+    .intro-info{
+        width: 14rem;
+        font-size: 14px;
+    }
+
+    .progress-content{
+        font-size: 16px;
+    }
+
+    .contactinfo p{
+        font-size: 17px;
+
+    }
+
+    .edheading{
+        font-size: 30px;
+    }
+
+    .cheading{
+        font-size: 30px;
+    }
 
 }
