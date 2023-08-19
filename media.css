@@ -36,6 +36,12 @@
         filter: inherit;
     }
 
+    .skills{
+        height: 11rem;
+    }
+
+
+
     /*---------- --------------------------------experience */
 
     #experience .card-box .card{
@@ -208,6 +214,7 @@
         background: inherit;
         backdrop-filter: blur(15px);
         height: 100%;
+        z-index: 1;
     }
 
     .sidebarGo{
@@ -225,6 +232,7 @@
         top: 10px;
         left: 10px;
         filter: invert(100%);
+        z-index: 1;
     }
 
     svg.cross{
@@ -267,6 +275,7 @@ div#aminfo{
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    gap: 10px;
 }
 
 #aboutme .hi .description{
@@ -279,6 +288,20 @@ div#aboutmeimg > img{
     border-radius: 25px;
     filter: inherit;
 }
+
+div.progress-heading{
+    font-size: 25px;
+}
+
+.progress-content{
+    width: 150px;
+}
+
+.skills{
+    width: 13rem;
+    margin: 0 auto;
+}
+
 
 
 

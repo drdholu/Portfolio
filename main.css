@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
 
+
 html{
     background-color: black;
     font-family: 'Poppins', sans-serif;
@@ -223,6 +224,10 @@ div#aminfo{
     width: 80%;
     text-align: center;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
 }
 
 div#aboutmeimg > img{
@@ -231,20 +236,135 @@ div#aboutmeimg > img{
     filter: inherit;
 }
 
+.info-cards{
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    background-color: rgba(127, 255, 212, 0.388);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.474);
+    background:inherit;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.amheading{
+    margin: 10px;
+    font-size: 40px;
+}
+
+.aboutme-cards{
+    /* width: auto; */
+    /* background-color: red; */
+    border-radius: 10px;
+    display: flex;
+    gap: 2rem;
+}
+
+.intro{
+    height: 6rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-card{
+    margin: 2px 30px;
+}
+
+.intro-info{
+    text-align: center;
+}
+
+.skills{
+    background-color: rgba(127, 255, 212, 0.388);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.474);
+    background:inherit;
+    backdrop-filter: blur(20px);
+    height: 14rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro-hob{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+div.progress-heading{
+    font-size: 30px;
+    /* text-align: justify; */
+}
+
+.progress-content{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+/* .progress-bar{
+    background-color: rgb(0, 0, 0);
+    width: 30rem;
+    border-radius: 10px;
+}
+
+.progress-bar div{
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px;
+}
+
+.progress-bar.html div{
+    width: 86%;
+}
+
+.progress-bar.css div{
+    width: 50%;
+}
+
+.progress-bar.javascript div{
+    width: 50%;
+} */
+
+.outer{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.inner{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
 
 /* --------------------------------------------------------- education info */
 
 #education{
-    /* background-color: rgb(78, 194, 157); */
+    /* background-color: rgb(0, 0, 0); */
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center;
     justify-content: space-evenly;
 }
 
 .card-box{
     display: flex;
-    /* gap: 100px; */
+    gap: 3rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -271,14 +391,19 @@ div#aboutmeimg > img{
 /* ------------------------------------------------------- cards */
 
 .card{
-    /* background-color: rgb(255, 255, 255); */
-    /* box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.404); */
-    /* background: inherit;
-    backdrop-filter: blur(10px); */
+    background-color: rgba(127, 255, 212, 0.388);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.474);
+    background:inherit;
+    backdrop-filter: blur(20px);
     border-radius: 10px;
     height: 50vh;
     text-align: center;
     width: 18rem;
+    transition:all 0.3s ease-in;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .card img{
@@ -360,4 +485,24 @@ div#aboutmeimg > img{
 
 .contactinfo p{
     font-size: 20px;
+}
+
+
+/*------------------------------------------ footer */
+
+.footer{
+    color: white;
+    display: flex;
+    /* background-color: rgb(29, 29, 29); */
+    height: 5rem;
+    width: 20rem;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fn{
+    color: aquamarine;
 }
