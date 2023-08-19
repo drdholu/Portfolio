@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
 
 
 html{
     background-color: black;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
     scroll-behavior: smooth;
     transition: all 0.01ms;
     background: rgb(0,0,0);
@@ -62,7 +65,7 @@ i.fa.fa-angle-up{
 
 .vl{
     border: 1px solid white;
-    height: 60vh;
+    height: inherit;
     margin-top: 150px;
     transition: all 0.3s ease-out;
 }
@@ -211,6 +214,7 @@ i.fa.fa-angle-up{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
     height: 100vh;
     width: 100vw !important;
     margin: 0 auto;
@@ -226,7 +230,7 @@ div#aminfo{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 10px;
     
 }
 
@@ -240,16 +244,18 @@ div#aboutmeimg > img{
     display: flex;
     flex-direction: column;
     /* gap: 2rem; */
-    background-color: rgba(127, 255, 212, 0.388);
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.474);
-    background:inherit;
+    background-color: rgba(30, 30, 30, 0.256);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.452);
+    /* background-color: rgba(127, 255, 212, 0.388);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.474); */
+    /* background:inherit; */
     backdrop-filter: blur(20px);
     border-radius: 10px;
-    margin: 10px;
+    padding: 15px;
 }
 
 .amheading{
-    margin: 10px;
+    /* margin: 10px; */
     font-size: 40px;
 }
 
@@ -274,12 +280,15 @@ div#aboutmeimg > img{
 
 .intro-info{
     text-align: center;
+    color: aquamarine;
 }
 
 .skills{
-    background-color: rgba(127, 255, 212, 0.388);
+    background-color: rgba(30, 30, 30, 0.256);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.452);
+    /* background-color: rgba(127, 255, 212, 0.388);
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.474);
-    background:inherit;
+    background:inherit; */
     backdrop-filter: blur(20px);
     height: 14rem;
     width: 100%;
@@ -333,20 +342,22 @@ div.progress-heading{
 } */
 
 .outer{
+    display: none;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     border: 1px solid red;
 }
 
 .inner{
+    display: none;
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     border: 1px solid red;
@@ -391,15 +402,17 @@ div.progress-heading{
 /* ------------------------------------------------------- cards */
 
 .card{
-    background-color: rgba(127, 255, 212, 0.388);
+    background-color: rgba(30, 30, 30, 0.256);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.452);
+    /* background-color: rgba(127, 255, 212, 0.388);
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.474);
-    background:inherit;
+    background:inherit; */
     backdrop-filter: blur(20px);
-    border-radius: 10px;
+    border-radius: 15px;
     height: 50vh;
     text-align: center;
     width: 18rem;
-    transition:all 0.3s ease-in;
+    transition:all 0.2s ease-in;
 }
 
 .card:hover{
@@ -416,7 +429,7 @@ div.progress-heading{
 
 .card-img-top{
     margin-top: 40px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 /* ----------------------------------------contact */
