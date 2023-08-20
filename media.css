@@ -1,4 +1,4 @@
-@media (max-width:1072px) {
+@media (max-width:1072px)  {
     /* --------------------------------------------------------------about me */
     #aboutme{
         /* background-color: rgb(78, 194, 157); */
@@ -71,7 +71,7 @@
     }
 }
 
-@media (max-width:960px) {
+@media (max-width:960px)  {
 
     /* .vl{
         border: 1px solid white;
@@ -197,7 +197,7 @@
 
 }
 
-@media (max-width:800px) {
+@media (max-width:800px)  {
     .nav-icons svg{
         display:block;
     }
@@ -248,7 +248,7 @@
     }
 }
 
-@media (max-width:720px) {
+@media (max-width:720px)  {
 
     /* --------------------------------------------------------------about me */
 #aboutme{
@@ -371,7 +371,7 @@ div.progress-heading{
 
 
     .card{
-        width: 30vh;
+        width: 17rem;
     }
     .card img{
         height: 8rem;
@@ -407,16 +407,12 @@ div.progress-heading{
         font-size: 30px;
     }
 
-    .progress-content div{
-        margin-left: 15px;
+    .progress-content{
+        font-size: 15px;
     }
 
     .card-body{
         font-size: 14px;
-    }
-
-    .card{
-        width: 40vh;
     }
 
 }

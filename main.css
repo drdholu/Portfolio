@@ -41,8 +41,8 @@ a:hover{
 .btt2{
     /* display: none; */
     position: fixed;
-    bottom: 35px;
-    right: 35px;
+    bottom: 20px;
+    right: 20px;
     z-index: 1;
     background-color: aquamarine;
     color: black !important;
@@ -142,7 +142,8 @@ i.fa.fa-angle-up{
     height: 100vh;
     /* background-color: red; */
     width: 90vw;
-    /* padding-left: 137px; */
+    /* width: 86vw; */
+    /* padding-left: 12.5rem; */
 }
 
 .mpaboutme{
@@ -425,6 +426,7 @@ div.progress-heading{
     text-align: center;
     width: 18rem;
     transition:all 0.2s ease-in;
+    gap:10px;
 }
 
 .card:hover{
@@ -506,6 +508,7 @@ div.progress-heading{
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    align-items: center;
 }
 
 .contactinfo p{

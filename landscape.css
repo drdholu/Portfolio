@@ -1,0 +1,48 @@
+@media (max-width:1720px) and (orientation: landscape){
+    #aboutme{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-box{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #experience .card-box{
+        display: flex;
+        flex-direction: row;
+        gap:0px;
+    }
+
+    #experience .card-box .card{
+        font-size: 15px;
+        width: 18rem;
+        height: 10rem;
+    }
+
+    #experience > .card-box > div > .card > .card-img-top{
+        height: 120px;
+    }
+
+    .card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        height: 17rem;
+    }
+
+    .card-img-top{
+        margin-top: 0px;
+    }
+
+    .card img{
+        height: 150px;
+    }
+
+    .contactinfo{
+        gap: 10px;
+    }
+}
