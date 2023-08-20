@@ -9,20 +9,20 @@
         flex-direction: row;
     }
 
-    #experience .card-box{
+    /* #experience .card-box{
         display: flex;
         flex-direction: row;
         gap:0px;
-    }
+    } */
 
-    #experience .card-box .card{
+    /* #experience .card-box .card{
         font-size: 15px;
         width: 18rem;
         height: 10rem;
-    }
+    } */
 
     #experience > .card-box > div > .card > .card-img-top{
-        height: 120px;
+        /* height: 120px; */
     }
 
     .card{
@@ -31,7 +31,7 @@
         justify-content: center;
         align-items: center;
         text-align: justify;
-        height: 17rem;
+        /* height: 17rem; */
     }
 
     .card-img-top{
