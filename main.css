@@ -206,6 +206,29 @@ i.fa.fa-angle-up{
     filter: grayscale(100%);
 } */
 
+.download-cv{
+    background-color: white;
+    width: 7rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 11px;
+    font-size: 14px;
+    transition: all 0.2s ease-in;
+}
+
+.download-cv:hover{
+    filter: invert(100%);
+    color: #80002b;
+}
+
+.download-cv a{
+    color: rgb(0, 0, 0);
+}
+
 
 
 /* -----------------------------------------------------------  about me */
@@ -281,12 +304,12 @@ div#aboutmeimg > img{
 
 .intro-info{
     text-align: center;
-    color: aquamarine;
+    color: white;
     transition: all 0.3s ease;
 }
 
 .intro-info:hover{
-    color: white;
+    color: aquamarine;
     cursor: normal;
 }
 
@@ -354,12 +377,12 @@ div.progress-heading{
     width: 50%;
 } */
 
-.outer{
+/* .outer{
     display: none;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid red;
@@ -370,11 +393,11 @@ div.progress-heading{
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid red;
-}
+} */
 
 /* --------------------------------------------------------- education info */
 
