@@ -281,6 +281,12 @@ div#aboutmeimg > img{
 .intro-info{
     text-align: center;
     color: aquamarine;
+    transition: all 0.3s ease;
+}
+
+.intro-info:hover{
+    color: white;
+    cursor: normal;
 }
 
 .skills{
@@ -315,6 +321,12 @@ div.progress-heading{
     flex-direction: row;
     justify-content: space-between;
     font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.progress-content:hover{
+    color: aquamarine;
+    cursor: default;
 }
 
 /* .progress-bar{

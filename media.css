@@ -51,7 +51,7 @@
         align-items: center;
         gap: 10px;
         height: 10%;
-        width: 40vh;
+        width: 50vh;
         margin: 10px;
     }
 
@@ -405,6 +405,18 @@ div.progress-heading{
 
     .cheading{
         font-size: 30px;
+    }
+
+    .progress-content div{
+        margin-left: 15px;
+    }
+
+    .card-body{
+        font-size: 14px;
+    }
+
+    .card{
+        width: 40vh;
     }
 
 }
