@@ -17,3 +17,9 @@ document.querySelector('.nav-icons').addEventListener("click", ()=>{
     }
 
 })
+
+// document.onclick = fucntion(e){
+//     if(e.target.id ==='sidebar' && e.target.id ==='sidebarGo'){
+//         document.querySelector('.sidebar').classList.toggle('sidebarGo');
+//     }
+// }
