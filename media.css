@@ -36,9 +36,21 @@
         filter: inherit;
     }
 
+    #aboutmeimg.mpimg{
+        height: 280px;
+        width: 280px;
+    }
+
+    div#aboutmeimg > .pd-content{
+        height: 280px;
+        width: 280px;
+    }
+
     .skills{
         height: 11rem;
     }
+
+
 
 
 
@@ -287,6 +299,16 @@ div#aboutmeimg > img{
     width: 250px;
     border-radius: 25px;
     filter: inherit;
+}
+
+#aboutmeimg.mpimg{
+    height: 250px;
+    width: 250px;
+}
+
+div#aboutmeimg > .pd-content{
+    height: 250px;
+    width: 250px;
 }
 
 div.progress-heading{
