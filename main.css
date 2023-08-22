@@ -64,10 +64,12 @@ i.fa.fa-angle-up{
 }
 
 .vl{
+    display: none;
     border: 1px solid white;
-    height: inherit;
-    margin-top: 150px;
-    transition: all 0.3s ease-out;
+    /* height: inherit; */
+    margin-top: 10rem;
+    transition: all 0.3s ease-in-out;
+    height: 27rem;
 }
 
 .nav-icons svg{
@@ -206,7 +208,7 @@ i.fa.fa-angle-up{
     filter: grayscale(100%);
 } */
 
-.download-cv{
+/* .download-cv{
     background-color: white;
     width: 7rem;
     height: 2rem;
@@ -227,7 +229,7 @@ i.fa.fa-angle-up{
 
 .download-cv a{
     color: rgb(0, 0, 0);
-}
+} */
 
 
 
@@ -248,6 +250,26 @@ div#aminfo{
     width: 58%;
 }
 
+/* div#aboutmeimg{
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    
+} */
+
+/* div#aboutmeimg .download-cv{
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 17px;
+} */
+
+/* div#aboutmeimg img:hover + .download-cv{
+    visibility:initial;
+} */
+
 #aboutme .hi{
     width: 80%;
     text-align: center;
@@ -258,11 +280,46 @@ div#aminfo{
     
 }
 
+#aboutmeimg.mpimg{
+    position: relative;
+    overflow: hidden;
+    /* background-color: rgb(0, 0, 0); */
+    border: 5px solid white;
+    border-radius: 30px;
+    height: 20rem;
+    width: auto;
+}
+
+#aboutmeimg.mpimg:hover .pd-content{
+    right: 0;
+ 
+}
+
 div#aboutmeimg > img{
     height: 100%;
     border-radius: 25px;
     filter: inherit;
 }
+
+div#aboutmeimg > .pd-content{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    right: -100%;
+    font-size: 22px;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 25px;
+    /* filter: blur(10px); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 1; */
+    transition: 0.5s;
+}
+
 
 .info-cards{
     display: flex;
@@ -276,6 +333,11 @@ div#aboutmeimg > img{
     backdrop-filter: blur(20px);
     border-radius: 10px;
     padding: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.info-cards:hover{
+    transform: scale(1.1);
 }
 
 .amheading{
@@ -326,6 +388,12 @@ div#aboutmeimg > img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.skills:hover{
+    transform: scale(1.1);
+    z-index: 1;
 }
 
 .pro-hob{
@@ -448,7 +516,10 @@ div.progress-heading{
     height: 50vh;
     text-align: center;
     width: 18rem;
-    transition:all 0.2s ease-in;
+    transition:all 0.2s ease-in-out;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     gap:10px;
 }
 
@@ -504,7 +575,7 @@ div.progress-heading{
 .contactinfo{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 65px;
     justify-content: center;
     align-items: center;
 }
@@ -525,6 +596,17 @@ div.progress-heading{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.contactinfo > .social-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links{
+    display: flex;
+    gap: 20px;
 }
 
 .contact-icon{
