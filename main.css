@@ -81,10 +81,8 @@ i.fa.fa-angle-up{
 
 .sidebar{
     color:aquamarine;
-    /* background-color: rgb(38, 38, 38); */
     width: 200px;
     height: 100vh;
-    /* position: fixed; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -303,13 +301,15 @@ div#aboutmeimg > img{
 div#aboutmeimg > .pd-content{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px 0 rgb(0, 0, 0);
+    backdrop-filter: blur(20px);
     top: 0;
     right: -100%;
     font-size: 22px;
     height: 20rem;
     width: 20rem;
     border-radius: 25px;
-    /* filter: blur(10px); */
+    /* filter: blur(50px); */
 
     display: flex;
     flex-direction: column;
